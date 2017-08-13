@@ -36,7 +36,7 @@ Leslie Lamport 证明，当叛变者不超过 $$\frac{1}{3}$$ 时，存在有效
 
 面向拜占庭问题的容错算法，解决的是网络通信可靠，但节点可能故障情况下的一致性达成。
 
-最早由 Castro 和 Liskov 在 1999 年提出的 Practical Byzantine Fault Tolerant（PBFT）是第一个得到广泛应用的 BFT 算法。只要系统中有 $$\frac{2}{3}$$ 的节点是正常工作的，则可以保证一致性。
+最早由 Castro 和 Liskov 在 1999 年提出的 Practical Byzantine Fault Tolerant（PBFT）是第一个得到广泛应用的 BFT 算法。只要系统中有大于 $$\frac{2}{3}$$ 的节点是正常工作的，则可以保证一致性。
 
 PBFT 算法包括三个阶段来达成共识：Pre-Prepare、Prepare 和 Commit。
 
